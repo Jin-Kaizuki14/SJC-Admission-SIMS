@@ -1,0 +1,155 @@
+.navbar {
+    background-color: #4c0b0b;
+    padding: 10px 0;
+    border-bottom: 8px solid #ffd11b;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Arial', serif;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-item.active {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+.dropdown-menu {
+    background-color: #4c0b0b;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #ffd11b;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red ; */
+    padding: 0;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.logo-name p, h3 {
+    color: white;
+}
+
+
+/* bg image */
+.image {
+    width: 100%;
+    height: 155vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/home-image.jpg);
+  }
+  
+.apply-container {
+  width: 100%;
+  height: 20vh;
+  background-color: #ffd11b;
+  padding: 0 100px;
+  border-bottom: 8px solid #4c0b0b;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apply-container h2 {
+  font-size: 50px;
+}
+
+.apply-container p {
+  font-size: 25px;
+}
+
+.apply-container a {
+  color: #4c0b0b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.apply-btn {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  background-color: #4c0b0b;
+  padding: 25px 40px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.apply-btn:hover {
+  transform: scale(1.03);
+}
+
+.offers {
+  width: 100%;
+  height: 50vh;
+  padding: 20px 100px;
+}
+
+.offers-title {
+  font-size: 50px;
+  color: #4c0b0b;
+}
+.offers p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #4c0b0b;
+}
+.content, .content ul {
+  font-size: 20px;
+  color: #4c0b0b;
+  list-style: none;
+  padding-left: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-color: #ffd11b;
+  border-top: 8px solid #4c0b0b;
+}
+
+
+
+
+
+
+
+
+
+
+
