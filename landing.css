@@ -1,27 +1,44 @@
-
-
 .navbar {
     background-color: #4c0b0b;
     padding: 10px 0;
     border-bottom: 8px solid #ffd11b;
 }
+
 .navbar-brand {
     font-weight: bold;
     color: #fff;
     font-family: 'Arial', serif;
 }
+
 .navbar-brand img {
     width: 100px;
 }
+
 .navbar-nav .nav-link {
     color: #fff;
 }
+
 .navbar-nav .nav-link:hover {
     color: #ffd700;
 }
 
+.dropdown-menu {
+    background-color: #4c0b0b;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #ffd11b;
+}
+
 .navbar-nav .nav-item {
     margin-right: 50px;
+    color: white;
+    font-weight: bold;
 }
 
 .logo-name {
@@ -39,3 +56,66 @@
 .logo-name p, h3 {
     color: white;
 }
+
+
+/* bg image */
+#image {
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/src/images/sjc-bg.webp);
+  }
+  
+  .image-overlay {
+    padding: 10rem;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .options-container {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .options-container a{ 
+    text-decoration: none
+  }
+
+  .options-container h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px
+  }
+
+  .login, .register {
+    background-color: #4c0b0b;
+    border-radius: 20px;
+    height: 50vh;
+    width: 30rem;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .login:hover, .register:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+
